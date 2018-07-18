@@ -1,0 +1,280 @@
+@import url(base.css);
+/* 头部开始 */
+header{
+    width: 1349px;
+    height: 42px;
+    background-color: #F1F1F1;
+}
+header .row{
+    width: 1172px;
+    height: 42px;
+    margin: 0 auto;
+}
+header .row a{
+    float: right;
+    color: #666;
+    font-size: 13px;
+    margin-right: 5px;
+    font-family: "microsoft yahei";
+    padding: 0 5px;
+    line-height: 42px;
+    transition: all 0.5s;
+}
+header .row a:hover{
+    background-color: #0071D5;
+    color: #fff;
+}
+/* 头部结束 */
+/* 固定栏开始 */
+.fix{
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    right: -20px;
+    bottom:70px;
+    z-index: 10;
+}
+.fix .son{
+    width: 180px;
+    height: 60px;
+}
+.fix .son img{
+    float: right;
+}
+/* 固定栏结束 */
+.list{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+}
+.list .navbar{
+    width: 1349px;
+    height: 70px;
+}
+.list .navbar  .row{
+    width: 1172px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.list .navbar  .row .logo{
+    display: block;
+    width: 295px;
+    height: 70px;
+    padding: 10px 0;
+}
+.list .navbar  .row .right{
+    width: 875px;
+    height: 70px;
+}
+.list .navbar  .row .right .we{
+    float: right;
+    padding: 25px 20px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "microsoft yahei";
+    color: #333;
+}
+.list .navbar  .row .right .we .iconfont{
+    font-size: 11px;
+}
+.list .navbar  .row .right .we:hover{
+    background-color: #0071D5;
+    color: #fff;
+    cursor: pointer;
+    overflow: visible;
+}
+.list .navbar  .row .right .we2{
+    color:#005bac;
+    font-weight: bold;
+}
+.list .navbar  .row .right .we2:hover{
+    background-color: #fff;
+    color: #005bac;
+}
+.list .navbar  .row .right .we1{
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.list .navbar  .row .right .we1 .mune{
+    width: 158px;
+    height: 320px;
+    background-color:#fff;
+    border: 1px solid #dddddd;
+    position: absolute;
+    left: 0;
+    bottom: -322px;
+    /*z-index: -1;*/
+}
+.list .navbar  .row .right .we1 .mune1{
+    width: 157px;
+    height: 79px;
+    background-color:#fff;
+    position: absolute;
+    left: 0;
+    bottom: -81px;
+}
+.list .navbar  .row .right .we1 .mune .rng{
+    display: block;
+    width: 118px;
+    height: 20px;
+    padding: 10px 20px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.53846154;
+    font-weight: 400;
+}
+.list .navbar  .row .right .we1 .mune .rng:hover{
+    background-color: #0071D5;
+    color:#fff;
+}
+.list .navbar  .row .right .we1:hover .mune{
+    z-index: 3;
+}
+.list .sign-in{
+    width:1168px;
+    height: 408px;
+    margin: 20px auto;
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+.list .sign-in .son{
+    width: 498px;
+    height: 259px;
+    padding:15px 0;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow:1px 1px 2px 2px #DDDDDD;
+}
+.list .sign-in .son .con{
+    width: 400px;
+    height: 259px;
+    margin:0 49px;
+}
+.list .sign-in .son .con h3{
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+    line-height: 1.53846154;
+    font-family: "microsoft yahei";
+}
+.list .sign-in .son .con .dfg{
+    width: 326px;
+    height: 21px;
+    padding: 10px 16px;
+    margin: 10px 0;
+}
+.list .sign-in .son .con .dfg:focus{
+    outline: none;
+}
+.list .sign-in .son .con .fth{
+    float: right;
+    color:#333;
+    font-size: 13px;
+    margin-right: 36px;
+    margin-bottom: 8px;
+}
+.list .sign-in .son .con .fth:hover{
+    color: #145ccd;
+    text-decoration: underline;
+}
+.list .sign-in .son .con .gh{
+    display: block;
+    width: 358px;
+    height: 21px;
+    padding: 10px 0;
+    border:1px solid #333;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    background-color: #145ccd;
+    margin-top: 20px;
+}
+.list .sign-in .son .con .gh:hover{
+    background-color: #004583;
+}
+
+/* 底部开始 */
+footer{
+    width:1349px;
+    height: 80px;
+    background-color: #232323;
+    /*margin-top: 50px;*/
+}
+footer .con{
+    width: 1170px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .con .map{
+    color:#777;
+    font-size: 13px;
+    font-weight: normal;
+}
+footer .con .map{
+    transition: all 0.4s
+}
+footer .con .map:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .con .company{
+    font-size: 14px;
+    color: #aaa;
+    font-family: "microsoft yahei";
+}
+footer .con .company .b,footer .con .company .icpinfo{
+    color:#666;
+    font-size: 13px;
+    font-weight: normal;
+    transition: all 0.4s;
+}
+footer .con .company .b:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .con .company .icpinfo:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .con .company .iconfont{
+    width: 14px;
+    height: 14px;
+    margin-left: -5px;
+    font-size: 14px;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+footer .con .company .iconfont .info{
+    width: 140px;
+    height: 57px;
+    position:absolute;
+    bottom: -25px;
+    right: -146px;
+    background-color: #fff;
+    border-radius: 4px;
+    color:#232323;
+    text-align: center;
+    background-color: #232323;
+    font-size: 14px;
+}
+footer .con .company .iconfont:hover .info{
+    background: #353535;
+    color: #F8F8F8;
+}
+footer .con .made-by{
+    font-size: 13px;
+    color: #777;
+}
+footer .con .made-by:hover{
+    color: #fff;
+}
+/* 底部结束 */
