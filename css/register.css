@@ -1,0 +1,46 @@
+@import "demo.css";
+main.register{
+    height: 518px;
+    width: 1200px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+main.register .son:first-child{
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid rgb(109,109,109);
+}
+main.register .son:first-child span{
+    line-height: 45px;
+    padding:10px 12px;
+    font-size: 16px;
+    color:rgb(74, 179, 68);
+    border-bottom: 2px solid rgb(74, 179, 68);
+}
+main.register .son:last-child{
+    height: 427px;
+    width: 380px;
+    margin: 22px auto;
+}
+main.register .son:last-child form{
+    line-height: 25px;
+    color:rgb(102,102,102);
+    text-align: right;
+}
+main.register .son:last-child form input{
+    width: 270px;
+    height: 23px;
+    margin-top: 12px;
+    border: 1px solid rgb(109,109,109);
+}
+main.register .son:last-child form input:focus,main.register .son:last-child form select:focus,main.register .son:last-child form textarea:focus{
+    outline: none;
+}
+main.register .son:last-child form span{
+    padding-left: 5px;
+    color: red;
+    line-height: 25px;
+}
+main.register .son:last-child form select input{
+    width: 156px;
+}

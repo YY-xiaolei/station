@@ -1,0 +1,203 @@
+@import "demo.css";
+/*蓝莓开始*/
+section.con{
+    height: 632px;
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 28px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+section.con .son:first-child{
+     height:622px;
+     width: 525px;
+     padding: 1px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+section.con .son:first-child .box:first-child{
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    padding-top: 56px;
+    padding-bottom: 57px;
+}
+section.con .son:first-child .box:nth-child(2){
+    height: 21px;
+    width: 500px;
+    line-height: 21px;
+}
+section.con .son:first-child .box:nth-child(2) a{
+    margin-right: 20px;
+    color:rgb(102,102,102);
+}
+section.con .son:first-child .box:nth-child(2) a:hover{
+    box-sizing: border-box;
+    border:1px solid grey;
+    transition: all 0.3s;
+    border-bottom: 0;
+}
+section.con .son:first-child .box:last-child{
+    height: 31px;
+    width: 500px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+section.con .son:first-child .box:last-child a{
+    display: block;
+    height: 28px;
+    width: 80px;
+    line-height: 28px;
+    text-align: center;
+    border:1px solid rgb(233,233,233);
+    border-radius: 15px;
+}
+
+
+
+
+section.con .son:last-child{
+    height:421px;
+    width: 545px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section.con .son:last-child span:first-child{
+    font-size: 20px;
+    transition: all 0.5s;
+}
+section.con .son:last-child span:first-child[span~=icon-qrcode-1-copy]:hover{
+    transform: scale(5);
+}
+section.con .son:last-child span:nth-child(2){
+    margin-left: 30px;
+    font-size: 14px;
+}
+section.con .son:last-child span:nth-child(2) span{
+    color:green;
+    font-weight: 700;
+}
+section.con .son:last-child span:nth-child(2) span:first-child{
+    font-size: 26px;
+}
+section.con .son:last-child span:nth-child(2) span:last-child{
+    margin-left:0;
+    font-size: 40px;
+}
+section.con .son:last-child span:nth-child(3){
+    height: 74px;
+    line-height: 74px;
+    margin-left: 30px;
+    border-top: 1px solid rgb(238,238,238);
+    border-bottom: 1px solid rgb(238,238,238);
+}
+section.con .son:last-child span:nth-child(3) span:first-child{
+    font-size: 14px;
+}
+section.con .son:last-child span:nth-child(3) span:nth-child(2){
+    color: rgb(238,238,238);
+}
+section.con .son:last-child span:nth-child(4){
+
+}
+section.con .son:last-child span:nth-child(5) span{
+
+}
+section.con .son:last-child span:nth-child(5) span:nth-of-type(1),section.con .son:last-child span:nth-child(5) span:nth-of-type(2){
+    display: block;
+    line-height: 42px;
+    font-size: 16px;
+    color:#4AB344;
+    border: 1px solid #4AB344;
+    height: 42px;
+    float: left;
+    text-align: center;
+    width: 160px;
+    border-radius: 3px;
+}
+section.con .son:last-child span:nth-child(5) span:nth-of-type(1) span{
+    border: 0;
+}
+section.con .son:last-child span:nth-child(5) span:nth-of-type(2){
+    color:white;
+    background: #4AB344;
+}
+/*section.con .son:last-child span:last-child{
+    font-size: 14px;
+    line-height: 16px;
+}*/
+section.con .son:last-child span:last-child span{
+    font-size: 14px;
+    line-height: 16px;
+}
+/*主体2*/
+main.con{
+    height: 2197px;
+    width: 1185px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+main.con .top{
+    height: 55px;
+    width: 1179px;
+    border:1px solid rgb(102,102,102);
+    margin:0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+main.con .top span,main.con .top a{
+    line-height: 50px;
+    padding-left: 47px;
+    padding-right: 47px;
+    color:rgb(102,102,102);
+}
+main.con .top span{
+    line-height: 50px;
+    color:rgb(102,102,102);
+    padding: 0;
+    margin:0;
+}
+main.con .top a:hover{
+    display: block;
+    border-top: 3px solid #4AB344;
+}
+main.con .son{
+    height: 30px;
+    width: 100%;
+    padding-top:30px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+main.con img:first-of-type{
+    display: block;
+    height: 416px;
+    width: 750px;
+    margin: 0 auto;
+}
+main.con img:nth-of-type(2){
+    display: block;
+    height: 458px;
+    width: 755px;
+    margin: 0 auto;
+}
+main.con img:nth-of-type(3){
+    display: block;
+    height: 544px;
+    width: 747px;
+    margin: 0 auto;
+}
+main.con img:last-of-type{
+    display: block;
+    height: 662px;
+    width: 751px;
+    margin: 0 auto;
+}

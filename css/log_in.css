@@ -1,0 +1,78 @@
+@import "base.css";
+@import "demo.css";
+section.login{
+    height: 294px;
+    width: 1200px;
+    margin:7px auto;
+}
+section.login .son:first-child{
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid rgb(102,102,102);
+    position: relative;
+}
+section.login .son:first-child span:first-child{
+    line-height: 46px;
+    color: #4ab344;
+    font-size: 16px;
+    padding:0 6px;
+}
+section.login .son:first-child span:last-child{
+    height: 2px;
+    width: 76px;
+    background: #4ab344;
+    position: absolute;
+    top:43px;
+    left: 0;
+}
+section.login .son:last-child{
+    height: 238px;
+    width: 260px;
+    margin: 5px 470px;
+    /*background: red;*/
+}
+section.login .son:last-child input{
+    margin-top:10px;
+}
+section.login .son:last-child input:focus{
+    outline: none;
+}
+section.login .son:last-child input:last-child{
+    border:1px solid red;
+}
+section.login .son:last-child a{
+    display: block;
+    width: 247px;
+    height: 16px;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: right;
+    color: rgb(109,109,109);
+}
+section.login .son:last-child .con{
+    height: 1px;
+    width: 260px;
+    margin: 10px auto;
+    background-color:rgb(229,229,229);
+
+}
+section.login .son:last-child .box1{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+section.login .son:last-child .box1 span{
+    font-size: 12px;
+    margin-right: 3px;
+    line-height: 20px;
+    color:rgb(109,109,109);
+}
+section.login .son:last-child .box1 a{
+    width: 20px;
+    display: block;
+    margin-top: 0;
+ }
+section.login .son:last-child .box1 a span{
+    font-size: 14px;
+}

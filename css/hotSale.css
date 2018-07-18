@@ -1,0 +1,34 @@
+@import "demo.css";
+header.top .con .son a:nth-child(2){
+    color: green;
+    border-bottom: 3px solid green;
+}
+header.top .con .son a:nth-child(1){
+    color: black;
+    border-bottom: 0px;
+}
+div.ad{
+    height: 380px;
+    background: url("../img/remai/1349-380.jpg") no-repeat;
+    background-size: 1349px 380px;
+}
+section.remaiCon{
+    height: 1173px;
+    width: 1200px;
+    margin: 0 auto;
+}
+section.remaiCon .left{
+    height: 1163px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 210px;
+    background: #ff4400;
+    float: left;
+}
+section.remaiCon .right{
+    height: 1157px;
+    width: 980px;
+    margin-top: 16px;
+    background: greenyellow;
+    float: right;
+}
