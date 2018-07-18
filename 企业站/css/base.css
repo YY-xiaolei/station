@@ -1,0 +1,18 @@
+/*
+* @Author: linzhi
+* @Date:   2018-07-10 13:15:48
+* @Last Modified by:   linzhi
+* @Last Modified time: 2018-07-10 17:39:33
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	display: block;
+}
