@@ -1,9 +1,0 @@
-@import "demo.css";
-header.top .con .son a:nth-child(3){
-    color: green;
-    border-bottom: 3px solid green;
-}
-header.top .con .son a:first-child{
-    color: black;
-    border-bottom: 0px;
-}

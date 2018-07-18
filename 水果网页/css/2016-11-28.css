@@ -1,0 +1,45 @@
+@import "demo.css";
+header.top .con .son a:first-child{
+    border:0px;
+    color:black;
+}
+header.top .con .son a:hover{
+    color: green;
+    border-bottom: 3px solid green;
+}
+main.box{
+    height: 1263px;
+    width: 1170px;
+    padding:10px ;
+    margin: 0 auto;
+}
+main.box .title{
+    height: 33px;
+    width: 100%;
+    margin: 5px 0;
+    color:rgb(51,51,51);
+    font-size: 25px;
+}
+main.box .line{
+    height: 0px;
+    width: 100%;
+    margin:80px 0 20px 0;
+    border-bottom:1px solid rgb(102,102,102);
+}
+main.box pre{
+    line-height: 1.8;
+    font-size: 14px;
+    color:#333;
+}
+main.box .line1{
+    height: 0px;
+    width: 100%;
+    margin: 20px 0;
+    border-bottom:1px dashed rgb(102,102,102);
+}
+main.box .tail{
+    height: 71px;
+    width: 1150px;
+    margin: 27px 10px 50px 10px ;
+    background: #83c44e;
+}

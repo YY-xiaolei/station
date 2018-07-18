@@ -1,0 +1,165 @@
+@import "demo.css";
+header.top .con .son a:nth-child(2){
+    color: green;
+    border-bottom: 3px solid green;
+}
+header.top .con .son a:nth-child(1){
+    color: black;
+    border-bottom: 0px;
+}
+div.ad{
+    height: 380px;
+    background: url("../img/hotSale/1349-380.jpg") no-repeat;
+    background-size: 1349px 380px;
+}
+/*主体部分*/
+section.remaiCon{
+    height: 1173px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*左边主体部分*/
+section.remaiCon .left{
+    height: 410px;
+    padding-bottom: 10px;
+    width: 208px;
+    margin-right:11px ;
+    margin-top: 6px;
+    border-right: 1px solid rgb(102,102,102);
+    float: left;
+}
+section.remaiCon .left span{
+    display: block;
+    height: 45px;
+    width: 201px;
+    line-height: 45px;
+    background: #5FAD01;
+    color:white;
+    font-size: 16px;
+    padding-left: 7px;
+}
+section.remaiCon .left a{
+    display: block;
+    height: 48px;
+    width: 188px;
+    border-bottom: 1px dashed rgb(102,102,102);
+    margin: 5px auto;
+    line-height: 48px;
+    text-align: left;
+}
+section.remaiCon .left a:nth-of-type(3),section.remaiCon .left a:nth-of-type(4),section.remaiCon .left a:nth-of-type(5){
+    border:0;
+}
+section.remaiCon .left a:nth-of-type(4) span,section.remaiCon .left a:nth-of-type(5) span{
+    background: none;
+    color:black;
+}
+section.remaiCon .left a:nth-of-type(4),section.remaiCon .left a:nth-of-type(5){
+    text-align: left;
+    height: 21px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    width: auto;
+    font-size: 16px;
+}
+section.remaiCon .left span:nth-of-type(3){
+    height: 32px;
+    width: 188px;
+    margin:0 auto;
+    font-size: 16px;
+    line-height: 32px;
+    color:black;
+    background: none;
+}
+section.remaiCon .left span:nth-of-type(4),section.remaiCon .left span:nth-of-type(5){
+    background: none;
+    height: 21px;
+    width: 188px;
+    margin:0 auto;
+    font-size: 16px;
+    line-height: 21px;
+    color:black;
+}
+/*右边主体部分*/
+section.remaiCon .right{
+    height: 1147px;
+    width: 980px;
+    margin-top: 7px;
+    float: right;
+}
+section.remaiCon .right .son{
+    height: 346px;
+    width: 227px;
+    padding:5px 0;
+    margin:5px;
+    float: left;
+    background: white;
+}
+section.remaiCon .right .son a{
+    display: block;
+}
+section.remaiCon .right .son a:first-child{
+    height: 225px;
+    width: 225px;
+    margin:0 auto;
+}
+section.remaiCon .right .son a:nth-child(2){
+    height: 23px;
+    width: 100%;
+    margin:0;
+    text-align: center;
+    line-height: 23px;
+    font-size: 16px;
+}
+section.remaiCon .right .son .sun{
+    height: 0;
+    width: 100%;
+    border-bottom: 1px dashed rgb(102,102,102);
+    margin:9px 0 6px 0;
+}
+section.remaiCon .right span{
+    display: block;
+    height: 27px;
+    width: 100%;
+    line-height: 27px;
+    text-align: center;
+    color:green;
+    margin-bottom: 11px;
+    font-size: 20px;
+}
+section.remaiCon .right span b{
+    font-size: 16px;
+}
+section.remaiCon .right .son a:last-of-type{
+    height: 32px;
+    width: 181px;
+    margin:0 auto;
+    background: green;
+    color:white;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+section.remaiCon .right .son:last-child{
+    height: 35px;
+    width: 100%;
+    margin:10px 0;
+}
+section.remaiCon .right .son:last-child a{
+    height: 35px;
+    width: 56px;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    background: none;
+    color: rgb(0,0,0);
+}
+section.remaiCon .right .son:last-child a:first-child{
+    margin-left: 360px;
+    color: rgb(102,102,102);
+}
+section.remaiCon .right .son:last-child a:nth-child(2){
+    color:green;
+}
