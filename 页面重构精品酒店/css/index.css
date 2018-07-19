@@ -1,0 +1,539 @@
+@import url('base.css');
+body{
+	background-color: #fff;
+}
+header{
+	width: 100%;
+	height: 35px;
+	border-bottom: 1px solid #E6E6E6;
+}
+header .box{
+	width: 1030px;
+	height: 35px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	box-sizing: content-box;
+}
+header .box .con{
+	width: 70px;
+	height: 34px;
+	margin-right: 10px;
+}
+header .box .con a{
+	color: #666;
+	line-height: 35px;
+	font-size: 12px;
+}
+header .box .con a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+header .box .con span{
+	font-size: 12px;
+}
+
+
+section{
+	width: 100%;
+	height: 92px;
+}
+section .box{
+	width: 1030px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+section .box .con1{
+	width: 312px;
+	height: 62px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+section .box p{
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+	line-height: 50px;
+	align-self: center;
+	display: flex;
+}
+section .box p span:first-child{
+	width: 35px;
+	height: 50px;
+	font-size: 40px;
+	align-self: center;
+	color: #5c4d3d;
+}
+section .box p span:nth-child(2){
+	width: 163px;
+	height: 50px;
+	align-self: center;
+	color: #5c4d3d;
+}
+
+
+.nav-box{
+	width: 100%;
+	height: 47px;
+	background-color: #5C4D3D;
+}
+.nav-box .con{
+	width: 1030px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+.nav-box .con .con1{
+	width: 128.75px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.nav-box .con .con1 a{
+	color: #fff;
+	font-size: 14px;
+}
+.nav-box .con .con1 span{
+	color: #fff;
+	position: absolute;
+	right: 5px;
+	top:0;
+    bottom:0;
+    margin:auto 0;
+}
+.nav-box .con .con1:hover{
+	background-color: #000;
+}
+
+
+
+.img-box{
+	width: 100%;
+	height: 422px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.img-box .imgbox1,.img-box .imgbox2{
+	height: 422px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img-box .btns{
+	width: 25px;
+	height: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.img-box .btns .btn:first-child{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.img-box .btns .btn:nth-child(2){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #5C4D3D;
+}
+.img-box .btns .btn:first-child:hover{
+	background-color: #5C4D3D;
+}
+.img-box .btns .btn:nth-child(2):hover{
+	background-color: #fff;
+}
+
+
+
+
+.notice{
+	width: 100%px;
+	height: 45px;
+	background-color: #F3F3F3;
+}
+.notice .con{
+	width: 1030px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.notice .con .con1{
+	width: 500px;
+	height: 100%;
+	display: flex;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.notice .con .con1 .con2{
+	width: 20%;
+	height: 45px;
+	line-height: 45px;
+}
+.notice .con .con1 .con2 span:first-child{
+	font-size: 18px;
+}
+.notice .con .con1 .con3{
+	width: 80%;
+	height: 45px;
+}
+.notice .con .con1 .con3 a{
+	font-size: 12px;
+	line-height: 45px;
+	color: #333;
+}
+.notice .con .con1 .con4{
+	width: 238px;
+	height: 33px;
+	border: 1px solid #5C4D3D;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	display: flex;
+	font-size: 12px;
+	line-height: 33px;
+}
+.notice .con .con1 .con4 .con5{
+	width: 160px;
+	height: 33px;
+	background-color: #fff;
+}
+.notice .con .con1 .con4 .con5 .usename{
+	width: 160px;
+	height: 32px;
+	border: 1px solid #5C4D3D;
+	padding-left: 10px;
+}
+.notice .con .con1 .con4 .con5 .usename:focus{
+	outline: none;
+}
+.notice .con .con1 .con4 .con6{
+	width: 78px;
+	height: 33px;
+}
+.notice .con .con1 .con4 .con6 .drop-down{
+	width: 78px;
+	height: 33px;
+	background-color: #5c4d3d;
+	border: 1px solid #5c4d3d;
+	box-sizing: border-box;
+	color: #fff;
+}
+.notice .con .con1 .con4 .con6 .drop-down .son1{
+	background-color: #fff;
+	color: #000;
+}
+.notice .con .con1 .con4 .con6 .drop-down:focus{
+	outline: none;
+}
+
+
+
+
+.hotel{
+	width: 100%;
+	height: 686px;
+}
+.hotel .img-hotel{
+	width: 1030px;
+	height: 686px;
+	margin: 0 auto;
+}
+
+
+
+
+
+.guest{
+	width: 100%;
+	height: 638.66px;
+}
+
+
+
+
+.business{
+	width: 100%;
+	height: 1184.89px;
+}
+.business .space0{
+	width: 100%;
+	height: 30px;
+}
+.business .img-english{
+	width: 1030px;
+	height: 118px;
+	margin: 0 auto;
+}
+.business .line{
+	width: 1030px;
+	height: 30px;
+	margin: 0 auto;
+	display: flex;
+}
+.business .line .line1{
+	width: 420px;
+	height: 30px;
+	position: relative;
+	top: 0;
+	left: 0; 
+}
+.business .line .house{
+	width: 190px;
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #5c4d3d;
+	text-align: center;
+}
+.business .line .line2{
+	width: 420px;
+	height: 30px;
+	position: relative;
+	top: 0;
+	left: 0; 
+}
+.business .line .line3{
+	width: 420px;
+	height: 2px;
+	background-color: #5C4D3D;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.business .space1{
+	width: 100%;
+	height: 16px;
+}
+.business .luxury{
+	width: 1030px;
+	height: 228.89px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.business .luxury .son{
+	width: 251.5px;
+	height: 228.89px;
+}
+.business .luxury .son .top{
+	width: 100%;
+	height: 40px;
+	background-color: #EBEBEB;
+	text-align: center;
+	font-size: 12px;
+	line-height: 40px;
+	color: #333;
+}
+.business .luxury .son .bottom{
+	width: 100%;
+	height: 188.89px;
+}
+.business .space2{
+	width: 100%;
+	height: 5px;
+}
+.business .bighouse{
+	width: 1030px;
+	height: 757px;
+	margin: 0 auto;
+}
+
+
+.news{
+	width: 100%;
+	height: 338px;
+	margin: 0 auto;
+}
+.news .con{
+	width: 1030px;
+	height: 100%;
+	margin: 0 auto;
+}
+.news .con .space3{
+	width: 100%;
+	height: 30px;
+}
+.news .con .img-news{
+	width: 1030px;
+	height: 98px;
+}
+.news .line0{
+	width: 1030px;
+	height: 30px;
+	margin: 0 auto;
+	display: flex;
+}
+.news .line0 .line4{
+	width: 420px;
+	height: 30px;
+	position: relative;
+	top: 0;
+	left: 0; 
+}
+.news .line0 .newsdynamic{
+	width: 190px;
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #5c4d3d;
+	text-align: center;
+}
+.news .line0 .line5{
+	width: 420px;
+	height: 30px;
+	position: relative;
+	top: 0;
+	left: 0; 
+}
+.news .line0 .line6{
+	width: 420px;
+	height: 2px;
+	background-color: #5C4D3D;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.news .con .space4{
+	width: 100%;
+	height: 15px;
+}
+.news .btns{
+	width: 1030px;
+	height: 165px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.news .btns .btn{
+	width: 504px;
+	height: 45px;
+	display: flex;
+}
+.news .btns .btn .left{
+	width: 459px;
+	height: 45px;
+	background-color: #E6E6E6;
+	display: flex;
+}
+.news .btns .btn .left .text{
+	width: 350px;
+	height: 45px;
+}
+.news .btns .btn .left .text a{
+	line-height: 45px;
+	padding: 0 10px;
+	font-size: 12px;
+	color: #333;
+}
+.news .btns .btn .left .date{
+	width: 109px;
+	height: 45px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.news .btns .btn .left .date span{
+	width: 70px;
+	height: 10px;
+	color: #888888;
+	font-size: 12px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.news .btns .btn .right{
+	width: 45px;
+	height: 45px;
+	background-color: #5C4D3D;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+	font-size: 18px;
+}
+.creative{
+	width: 100%;
+	height: 314.77px;
+}
+.tail{
+	width: 100%;
+	height: 132px;
+	overflow: hidden;
+}
+.tail .con{
+	width: 1030px;
+	height: 132px;
+	padding: 10px 0;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.tail .con p{
+	width: 824px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+}
+.tail .con p span{
+	margin-right: 15px;
+}
+.tail .con p .theme1{
+	margin-right: 0;
+}
+.tail .con p .theme2:hover{
+	text-decoration: underline;
+}
+.tail .pr{
+	width: 206px;
+	height: 102px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.tail .pr .pr1{
+	width: 67px;
+	height: 67px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.tail .pr .pr1:hover{
+	transform: translateX(50px) scale(1.5,1.5);
+}
+.tail .pr .pr2{
+	width: 206px;
+	height: 25px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 25px;
+	color: #333;
+	font-size: 12px;
+}
