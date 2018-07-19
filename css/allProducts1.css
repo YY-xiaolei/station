@@ -1,0 +1,11 @@
+@import "allProducts.css";
+section.remaiCon .right .son:last-child a:first-child{
+    margin-left: 340px;
+    color: rgb(102,102,102);
+}
+section.remaiCon .right .son:last-child a:nth-child(2){
+    color:rgb(102,102,102);
+}
+section.remaiCon .right .son:last-child a:nth-child(3){
+    color:green;
+}

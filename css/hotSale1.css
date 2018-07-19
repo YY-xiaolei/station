@@ -1,0 +1,34 @@
+@import "hotSale.css";
+section.remaiCon{
+    height: 450px;
+    width: 1200px;
+    margin: 0 auto;
+}
+section.remaiCon .right{
+    height: 410px;
+    width: 980px;
+    margin-top: 7px;
+    float: right;
+}
+section.remaiCon .right .son:last-child a{
+    height: 35px;
+    width: 56px;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    background: none;
+    color: rgb(0,0,0);
+}
+section.remaiCon .right .son:last-child a:last-child{
+    color: rgb(102,102,102);
+
+}
+section.remaiCon .right .son:last-child a:nth-child(3){
+    color:green;
+}
+section.remaiCon .right .son:last-child a:nth-child(2){
+    color:rgb(0,0,0);
+}
+section.remaiCon .right .son:last-child a:first-child{
+    color:rgb(209,209,209);
+}

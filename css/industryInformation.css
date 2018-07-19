@@ -1,0 +1,90 @@
+@import "demo.css";
+@import "hotSale.css";
+header.top .con .son a:nth-child(2){
+    color: black;
+    border-bottom: 0px;
+}
+header.top .con .son a:nth-child(4){
+    color: green;
+    border-bottom: 3px solid green;
+}
+section.remaiCon{
+    height: 1214px;
+}
+section.remaiCon .right{
+    height: 1200px;
+    width: 980px;
+}
+section.remaiCon .right .con{
+    width: 965px;
+    height: 102px;
+    padding:3px 5px 3px 0;
+}
+section.remaiCon .right .con a{
+    display: block;
+    height: 84px;
+    width: 84px;
+    float: left;
+    background: rgb(209,209,209);
+}
+section.remaiCon .right .con a span:first-child{
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+    color:black;
+}
+section.remaiCon .right .con a span:last-child{
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    color: grey;
+}
+section.remaiCon .right .con .zuo{
+    height: 100%;
+    width: 810px;
+    margin-left: 10px;
+    float: left;
+}
+section.remaiCon .right .con .zuo a{
+    display: block;
+    height: 24px;
+    width: 770px;
+    float: none;
+    line-height: 24px;
+    color: #000;
+    background: none;
+}
+section.remaiCon .right .con .zuo span{
+    width: 810px;
+    height: 48px;
+    padding-top: 4px;
+    margin: 4px 0 6px 0;
+    font-size: 16px;
+    text-align: left;
+    color: rgb(102,102,102);
+}
+
+
+section.remaiCon .right .con1{
+    height: 0;
+    width: 970px;
+    border-bottom: 1px dashed grey;
+    margin:19px 0 36px 0;
+}
+section.remaiCon .right .con2{
+    height: 40px;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 40px;
+}
+section.remaiCon .right .con2 span{
+    display: inline-block;
+    width: 52px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 30px;
+    color:rgb(209,209,209);
+}
+section.remaiCon .right .con2 span:nth-child(2){
+    color:green;
+}
