@@ -1,0 +1,420 @@
+@import url(base.css);
+/* 头部开始 */
+header{
+    width: 1349px;
+    height: 42px;
+    background-color: #F1F1F1;
+}
+header .row{
+    width: 1172px;
+    height: 42px;
+    margin: 0 auto;
+}
+header .row a{
+    float: right;
+    color: #666;
+    font-size: 13px;
+    margin-right: 5px;
+    font-family: "microsoft yahei";
+    padding: 0 5px;
+    line-height: 42px;
+    transition: all 0.5s;
+}
+header .row a:hover{
+    background-color: #0071D5;
+    color: #fff;
+}
+/* 头部结束 */
+/* 固定栏开始 */
+.fix{
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    right: -20px;
+    bottom:70px;
+    z-index: 10;
+}
+.fix .son{
+    width: 180px;
+    height: 60px;
+}
+.fix .son img{
+    float: right;
+}
+/* 固定栏结束 */
+/* list开始 */
+.list{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+}
+.list .navbar{
+    width: 1349px;
+    height: 70px;
+}
+.list .navbar  .row{
+    width: 1172px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.list .navbar  .row .logo{
+    display: block;
+    width: 295px;
+    height: 70px;
+    padding: 10px 0;
+}
+.list .navbar  .row .right{
+    width: 875px;
+    height: 70px;
+}
+.list .navbar  .row .right .we{
+    float: right;
+    padding: 25px 20px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "microsoft yahei";
+    color: #333;
+}
+.list .navbar  .row .right .we .iconfont{
+    font-size: 11px;
+}
+.list .navbar  .row .right .we:hover{
+    background-color: #0071D5;
+    color: #fff;
+    cursor: pointer;
+    overflow: visible;
+}
+.list .navbar  .row .right .we2{
+    color:#005bac;
+    font-weight: bold;
+}
+.list .navbar  .row .right .we2:hover{
+    background-color: #fff;
+    color: #005bac;
+}
+.list .navbar  .row .right .we1{
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.list .navbar  .row .right .we1 .mune{
+    width: 158px;
+    height: 320px;
+    background-color:#fff;
+    border: 1px solid #dddddd;
+    position: absolute;
+    left: 0;
+    bottom: -320px;
+    /*z-index: -1;*/
+}
+.list .navbar  .row .right .we1 .mune1{
+    width: 158px;
+    height: 81px;
+    background-color:#fff;
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+}
+.list .navbar  .row .right .we1 .mune .rng{
+    display: block;
+    width: 120px;
+    height: 21px;
+    padding: 10px 20px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.53846154;
+    font-weight: 400;
+}
+.list .navbar  .row .right .we1 .mune .rng:hover{
+    background-color: #0071D5;
+    color:#fff;
+}
+.list .navbar  .row .right .we1:hover .mune{
+    z-index: 3;
+}
+.list .picture {
+    width: 1349px;
+    height: 179.16px;
+}
+.list .classification{
+    width: 1170px;
+    height: 499px;
+    margin:0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.list .classification .left{
+    width: 864px;
+    height: 499px;
+    padding:0 7px;
+}
+.list .classification .left .con{
+    width: 861.5px;
+    height: 479px;
+    border:1px solid #e5e5e5;
+}
+.list .classification .left .con .top{
+    width: 861.5px;
+    height: 37px;
+    padding:8px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.list .classification .left .con .top span{
+    display: block;
+    font-size:16px;
+    color:#0071d5;
+    font-weight: normal;
+    line-height: 20px;
+}
+.list .classification .left .con .son{
+    width: 861.5px;
+    height: 132px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.list .classification .left .con .son:hover{
+    background-color: #F5F5F5;
+}
+.list .classification .left .con .son .header{
+    width: 831.5px;
+    height: 19px;
+    margin:5px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.list .classification .left .con .son .header a{
+    display: block;
+    width: 238px;
+    height: 19px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+}
+.list .classification .left .con .son .header .browse{
+    width: 140.38px;
+    height: 20px;
+}
+.list .classification .left .con .son .header .browse span{
+    /*font-family: "microsoft yahei";*/
+    font-size: 14px;
+    font-weight: normal;
+    color: #757575;
+}
+.list .classification .left .con .son .header a:hover{
+    color: #005bac;
+    text-decoration: underline;
+}
+.list .classification .left .con .son .content{
+    width: 831.5px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.list .classification .left .con .son .content span{
+    /*display: block;*/
+    /*width: 741.5px;*/
+    font-size: 13px;
+    color: #757575;
+    font-weight: normal;
+    font-family:"microsoft yahei" ;
+    line-height: 1.53846154;
+}
+.list .classification .left .con .son .content img{
+    padding:4px;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.list .classification .left .con .bottom{
+    width: 831.5px;
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.list .classification .left .con .bottom .text{
+    height: 30px;
+    margin:10px 0;
+    line-height: 30px;
+    font-family: ZenIcon;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+}
+.list .classification .left .con .bottom .text span{
+    color: #999999;
+}
+.list .classification  .right{
+    width:278px;
+    height: 440px;
+    overflow: hidden;
+}
+.list .classification  .right .navigation{
+    width: 278.5px;
+    height: 115px;
+    margin-bottom:14px;
+    border:1px solid #DDDDDD;
+    box-sizing: border-box;
+}
+.list .classification  .right .navigation .header{
+    padding: 8px 15px;
+    border-bottom: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    font-size:16px;
+    color:#0071d5;
+    font-weight: normal;
+    line-height: 20px;
+}
+.list .classification  .right .navigation .son{
+    height: 21px;
+    display: block;
+    padding:8px 15px;
+
+}
+.list .classification  .right .navigation .son span{
+    display: block;
+    color: #333;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+}
+.list .classification  .right .navigation .son:nth-of-type(2){
+    border-left: 2px solid #005bac;
+    background-color: #F5F5F5;
+}
+.list .classification  .right .navigation .son:nth-of-type(2) span{
+    color: #005bac;
+}
+.list .classification  .right .navigation .son:nth-of-type(1):hover{
+    background-color: #005bac;
+}
+.list .classification  .right .navigation .son:nth-of-type(1):hover span{
+    color: #fff;
+}
+.list .classification  .right .imformation{
+    width: 278.5px;
+    height: 285px;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+}
+.list .classification  .right .imformation  .header{
+    padding: 8px 15px;
+    border-bottom: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    font-size:16px;
+    color:#0071d5;
+    font-weight: normal;
+    line-height: 20px;
+}
+.list .classification  .right .imformation .last{
+    width: 246.5px;
+    height: 222px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    font-family: "microsoft yahei";
+}
+.list .classification  .right .imformation .last .son{
+    width: 246px;
+    height: 26px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    font-family: "microsoft yahei";
+}
+.list .classification  .right .imformation .last .son span{
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+}
+/*list结束*/
+/* 底部开始 */
+footer{
+    width:1349px;
+    height: 80px;
+    background-color: #232323;
+    /*margin-top: 50px;*/
+}
+footer .con{
+    width: 1170px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .con .map{
+    color:#777;
+    font-size: 13px;
+    font-weight: normal;
+}
+footer .con .map{
+    transition: all 0.4s
+}
+footer .con .map:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .con .company{
+    font-size: 14px;
+    color: #aaa;
+    font-family: "microsoft yahei";
+}
+footer .con .company .b,footer .con .company .icpinfo{
+    color:#666;
+    font-size: 13px;
+    font-weight: normal;
+    transition: all 0.4s;
+}
+footer .con .company .b:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .con .company .icpinfo:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .con .company .iconfont{
+    width: 14px;
+    height: 14px;
+    margin-left: -5px;
+    font-size: 14px;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+footer .con .company .iconfont .info{
+    width: 140px;
+    height: 57px;
+    position:absolute;
+    bottom: -25px;
+    right: -146px;
+    background-color: #fff;
+    border-radius: 4px;
+    color:#232323;
+    text-align: center;
+    background-color: #232323;
+    font-size: 14px;
+}
+footer .con .company .iconfont:hover .info{
+    background: #353535;
+    color: #F8F8F8;
+}
+footer .con .made-by{
+    font-size: 13px;
+    color: #777;
+}
+footer .con .made-by:hover{
+    color: #fff;
+}
+/* 底部结束 */
